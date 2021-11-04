@@ -1,0 +1,11 @@
+clear all;
+clc;
+x1=input('enter the value of x1 ');
+y1=input('enter the value of y1 ');
+x2=input('enter the value of x2 ');
+y2=input('enter the value of y1 ');
+a=input('enter the value of a ');
+modp=input('enter the value of modp ');
+P=[x1 y1];
+Q=[x2 y2];
+ptadd=Ptadd_mod(P,Q,a,modp);
